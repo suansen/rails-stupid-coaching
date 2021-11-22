@@ -1,0 +1,11 @@
+<div class="p-3 mb-3 question">
+  <p><%= params[:question]%></p>
+  <p><em>- You</em></p>
+</div>
+
+<div class="p-3 mb-3 question answer">
+  <p><strong><%= @answer %></strong></p>
+  <p><em>- Your coach</em></p>
+</div>
+
+<%= link_to "Ask a new question", "/ask", class:"back-link"%>
